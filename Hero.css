@@ -1,0 +1,19 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;   /* same as min-h-screen */
+  margin-top: 5rem;    /* same as mt-20 */
+  width: 100%;
+}
+
+.hero-text {
+  font-weight: 800;    /* font-extrabold */
+  text-align: center;
+  font-size: 1.875rem; /* text-3xl */
+  max-width: 48rem;    /* max-w-3xl */
+}
+
+.hero-highlight {
+  color: #f56551;
+}
